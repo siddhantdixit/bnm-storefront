@@ -18,10 +18,11 @@ const IndexPage = ({ data }) => {
       <div className="bg-ui-light pb-12 lg:pb-0 w-full px-4 sm:px-6 lg:px-12">
         <div className="flex flex-col lg:flex-row items-center max-w-screen-2xl mx-auto">
           <StaticImage
-            src="../images/myplant-resized.png"
+            src="../images/plant/main.png"
             alt="A black Medusa hoodie and a white Medusa coffee mug"
             placeholder="tracedSVG"
             className="w-full lg:w-1/2 h-auto"
+            quality={100}
           />
           <div>
             <h1 className="text-4xl">Plant a tree, so that the <br></br>next generation can get air for free.</h1>
