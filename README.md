@@ -1,84 +1,65 @@
-<p align="center">
-  <a href="https://www.medusa-commerce.com">
-    <img alt="Medusa" src="https://user-images.githubusercontent.com/7554214/153162406-bf8fd16f-aa98-4604-b87b-e13ab4baf604.png" width="100" />
-  </a>
-</p>
-<h1 align="center">
-  Medusa Gatsby Starter
-</h1>
-<p align="center">
-Medusa is an open-source headless commerce engine that enables developers to create amazing digital commerce experiences.
-</p>
-<p align="center">
-  <a href="https://github.com/medusajs/medusa/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Medusa is released under the MIT license." />
-  </a>
-  <a href="https://github.com/medusajs/medusa/blob/master/CONTRIBUTING.md">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs welcome!" />
-  </a>
-  <a href="https://discord.gg/xpCwq3Kfn8">
-    <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Discord Chat" />
-  </a>
-  <a href="https://twitter.com/intent/follow?screen_name=medusajs">
-    <img src="https://img.shields.io/twitter/follow/medusajs.svg?label=Follow%20@medusajs" alt="Follow @medusajs" />
-  </a>
-</p>
+# Interrior Plants Store
 
-> **Prerequisites**: To use the starter you should have a Medusa server running locally on port 9000. Check out [medusa-starter-default](https://github.com/medusajs/medusa-starter-default) for a quick setup.
+<img src="2.jpeg"></img>
 
-## 🚀 Quick Start
+## Description
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/medusajs/gatsby-starter-medusa)
+Ordering a pizza is easy but ever heard of ordering a plant to your doorstep? This is where BNM comes in.
 
-1. **Create a new Gatsby project**
+An open source demo of ecommerce web storefront for plant lovers built using MedusaJS.It includes products screen, cart, checkout.  This marketplace is easy to maintain and update to the latest Medusa version as it is built entirely with the tools provided by Medusa (no third-party included).
 
-```zsh
-  npx gatsby new my-medusa-storefront https://github.com/medusajs/gatsby-starter-medusa
+### What is Medusa?
 
-  # or
+> The Open Source Shopify Alternative
+> Medusa is a composable engine that combines an amazing developer experience with endless customizations for merchants to scale.
+> Medusa powers ambitious e-com startups to global enterprises with over 10000+ Projects and 2000+ Active Community Members
 
-  git clone https://github.com/medusajs/gatsby-starter-medusa.git my-medusa-storefront
-```
+## Participants
 
-2. **Install dependencies**
+| Name        | Github                                   | Twitter                                      | Discord              |
+| ----------- | ---------------------------------------- | -------------------------------------------- | -------------------- |
+| Devansh Purwar  | [Github](https://github.com/devansh-purwar/)     | [Twitter](https://twitter.com/purwar_devansh)      | [Discord](https://discordapp.com/users/DEV#8370)       |
+| Siddhant Dixit | [Github](https://github.com/siddhantdixit)  | [Twitter](https://twitter.com/iamSidDixit)       | [Discord](https://discordapp.com/users/Siddhant#5865) |
 
-```zsh
-  cd my-medusa-storefront
-  yarn
-```
+## Preview
 
-3. **Link to your backend**
+## Set Up Project
 
-In the folder `my-medusa-storefront` you should have a `.env.template` file with the following content:
+### Prerequisites
+
+Before you start with the tutorial make sure you have
+
+- [Node.js](https://nodejs.org/en/) v16.9.0 or greater installed on your machine
+
+- Medusa CLI (```npm install -g @medusajs/medusa-cli```) .
+
+- Medusa server v14 or greater installed on your machine
+- Medusa Admin and Backend up and running
+
+### Install Project
+
+Clone the repo using the following command
 
 ```shell
-GATSBY_MEDUSA_BACKEND_URL=http://localhost:9000
+git clone https://github.com/siddhantdixit/my-medusa-store.git
 ```
 
-Before you can start developing your site you first need to copy this file into a new file named `.env.development`.
+Seed Data In Backend Repo
 
-```zsh
-mv .env.template .env.development
+```
+medusa seed -f ./data/seed.json
 ```
 
-Per default your Medusa server should be running on `localhost:9000`, but if you have changed this you will then need to replace `GATSBY_MEDUSA_BACKEND_URL` with the URL of your Medusa server.
+Run to view in localhost.
 
-```zsh
-GATSBY_MEDUSA_BACKEND_URL=<link to your server>
+```shell
+npm install && npm run dev
 ```
 
-4. **Start development**
+Your site is now running at <http://localhost:8000>!
 
-You should now be able to start developing your site.
+## Resources
 
-```zsh
-yarn start
-```
-
-5. **Open the source code and start editing!**
-
-   Your site is now running at `http://localhost:8000`!
-
-   _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
-
-   Open the `my-medusa-starter` directory in your code editor of choice and edit `src/pages/index.jsx`. Save your changes and the browser will update in real time!
+- [Medusa’s GitHub repository](https://github.com/medusajs/medusa)
+- [Medusa Admin Panel](https://github.com/medusajs/admin)
+- [Medusa Documentation](https://docs.medusajs.com/)
