@@ -100,7 +100,6 @@ const Header = () => {
                 className="bg-white p-2 lg:hidden"
                 onClick={() => setOpen(true)}
               >
-                <span className="sr-only">Open menu</span>
                 <svg
                   className="w-4 h-4 black"
                   viewBox="0 0 20 20"
@@ -112,7 +111,7 @@ const Header = () => {
 
               <div className="ml-4 flex lg:ml-0 lg:mr-8">
                 <Link to="/">
-                  <img className="h-8 w-auto" src={Logo} alt="" />
+                  <img className="h-10 w-auto" src={Logo} alt="" />
                 </Link>
               </div>
             </div>
@@ -122,6 +121,14 @@ const Header = () => {
                 <HeaderLink to="/products" text="Products" />
                 <HeaderLink to="/collections" text="Collections" />
               </div>
+            </div>
+          </div>
+
+          <div className="flex items-center justify-center">
+            <div className="hidden lg:flex">
+              {/* <RegionPopover regions={mockData.regions} /> */}
+              {/* <AccountPopover customer={mockData.customer} /> */}
+              <h1>Botanicals N' More</h1>
             </div>
           </div>
 
