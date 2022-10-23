@@ -1,4 +1,4 @@
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 import CollectionPreview from "../components/categories/collection-preview"
@@ -31,9 +31,11 @@ const IndexPage = ({ data }) => {
               <br />
               as a token of our appreciation
             </p>
-            <button className="btn-ui mt-4 min-w-full lg:min-w-0">
-              Learn more
-            </button>
+            <Link to="/products">
+              <button className="btn-ui mt-4 min-w-full lg:min-w-0" >
+                Explore more
+              </button>
+            </Link>
           </div>
         </div>
       </div>
