@@ -15,7 +15,7 @@ const IndexPage = ({ data }) => {
   return (
     <div>
       <SearchEngineOptimization title="Home" />
-      <div className="bg-ui-light pb-12 lg:pb-0 w-full px-4 sm:px-6 lg:px-12">
+      <div className="bg-ui-light pb-12 lg:pb-0 w-full px-4 sm:px-6 lg:px-12" style={{backgroundColor:'honeydew'}}>
         <div className="flex flex-col lg:flex-row items-center max-w-screen-2xl mx-auto">
           <StaticImage
             src="../images/plant/main.png"
@@ -25,11 +25,10 @@ const IndexPage = ({ data }) => {
             quality={100}
           />
           <div>
-            <h1 className="text-4xl">Plant a tree, so that the <br></br>next generation can get air for free.</h1>
+            <h1 className="text-4xl">Plant a tree, so that the next <br/>generation can get air for free.</h1>
+            <br></br>
             <p className="mt-2 text-lg font-normal">
-              Contribute to Medusa and receive free merch
-              <br />
-              as a token of our appreciation
+            Ordering a pizza is easy but ever heard of ordering a plant to <br/>your doorstep? This is where BN'M comes in.
             </p>
             <Link to="/products">
               <button className="btn-ui mt-4 min-w-full lg:min-w-0" >
