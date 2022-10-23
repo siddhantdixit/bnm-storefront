@@ -53,6 +53,9 @@ Before you start with the tutorial make sure you have
 - Medusa server v14 or greater installed on your machine
 - Medusa Admin and Backend up and running
 
+You can install **backend** from here
+https://github.com/siddhantdixit/bnm-store
+
 ### Install Project
 
 Clone the repo using the following command
