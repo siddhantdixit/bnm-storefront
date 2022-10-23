@@ -20,6 +20,7 @@ An open source demo of ecommerce web storefront for plant lovers built using Med
 | ----------- | ---------------------------------------- | -------------------------------------------- | -------------------- |
 | Devansh Purwar  | [Github](https://github.com/devansh-purwar/)     | [Twitter](https://twitter.com/purwar_devansh)      | [Discord](https://discordapp.com/users/DEV#8370)       |
 | Siddhant Dixit | [Github](https://github.com/siddhantdixit)  | [Twitter](https://twitter.com/iamSidDixit)       | [Discord](https://discordapp.com/users/Siddhant#5865) |
+| Prateek Agrawal | [Github](https://github.com/prateekin)  | [Twitter](https://twitter.com/prateekco)       | [Discord](https://discordapp.com/users/abc_123_1#7503) |
 
 ## Preview
 
