@@ -58,14 +58,14 @@ Before you start with the tutorial make sure you have
 Clone the repo using the following command
 
 ```shell
-git clone https://github.com/siddhantdixit/my-medusa-storefront.git
+git clone https://github.com/siddhantdixit/bnm-storefront.git
 ```
 
 
 Run to view in localhost.
 
 ```shell
-cd my-medusa-storefront
+cd bnm-storefront
 npm install && npm run dev
 ```
 
