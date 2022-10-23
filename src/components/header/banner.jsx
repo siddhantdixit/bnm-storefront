@@ -18,7 +18,7 @@ const Banner = () => {
   return (
     <div
       className={classNames(
-        isHidden ? "hidden" : "",
+        "hidden",
         "bg-ui-medium h-10 flex items-center justify-between text-sm font-medium text-blue px-4 sm:px-6 lg:px-8"
       )}
     >
