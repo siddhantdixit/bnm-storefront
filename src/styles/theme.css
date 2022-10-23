@@ -2,6 +2,7 @@
 
 h1 {
   @apply text-2xl font-semibold;
+  font-family: Montserrat
 }
 
 h2 {
@@ -14,10 +15,13 @@ h3 {
 
 a {
   @apply text-black;
+  font-size: 1.1em;
+  font-family: Outfit
 }
 
 p {
   @apply font-light;
+  font-family: Montserrat
 }
 
 @tailwind components;

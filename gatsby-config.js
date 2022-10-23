@@ -22,6 +22,10 @@ module.exports = {
           {
             name: `Montserrat`,
             file: `https://fonts.googleapis.com/css?family=Montserrat`,
+          },
+          {
+            name: `Outfit`,
+            file: `https://fonts.googleapis.com/css?family=Outfit`
           }
         ],
       },
