@@ -126,9 +126,9 @@ const Header = () => {
 
           <div className="flex items-center justify-center">
             <div className="hidden lg:flex">
-              {/* <RegionPopover regions={mockData.regions} /> */}
-              {/* <AccountPopover customer={mockData.customer} /> */}
-              <h1>Botanicals N' More</h1>
+              <h1 style={{fontFamily: `Montserrat`}}>
+                Botanicals N' More
+              </h1>
             </div>
           </div>
 
